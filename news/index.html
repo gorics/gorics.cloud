@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>gorics.cloud News</title>
+  <meta name="description" content="gorics.cloud의 자동 뉴스 페이지입니다." />
+  <link rel="stylesheet" href="/news/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="/news/">gorics.cloud News</a>
+      <nav class="nav">
+        <a href="/">Home</a>
+        <a href="/news/">News</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <p class="eyebrow">AUTO PUBLISHING READY</p>
+      <h1>자동 업로드형 뉴스 사이트 기본 구조</h1>
+      <p class="hero-text">
+        이 페이지는 <strong>index.json</strong>을 읽어서 최신 기사를 자동으로 렌더링합니다.
+        앞으로 예약 작업이 기사 HTML과 JSON만 갱신하면 뉴스 페이지가 자동으로 반영됩니다.
+      </p>
+      <div class="hero-actions">
+        <a class="button primary" href="/news/index.json">JSON 보기</a>
+        <a class="button" href="/news/test/">테스트 페이지</a>
+      </div>
+    </section>
+
+    <section class="section-head">
+      <div>
+        <p class="section-label">Latest Articles</p>
+        <h2>최신 뉴스</h2>
+      </div>
+      <p id="updatedAt" class="updated-at">불러오는 중...</p>
+    </section>
+
+    <section id="newsGrid" class="news-grid" aria-live="polite"></section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 gorics.cloud</p>
+      <p>Powered by GitHub Pages + ChatGPT Connector</p>
+    </div>
+  </footer>
+
+  <script src="/news/app.js"></script>
+</body>
+</html>
