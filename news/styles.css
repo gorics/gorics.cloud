@@ -1,0 +1,246 @@
+:root {
+  --bg: #07122b;
+  --panel: rgba(10, 19, 45, 0.78);
+  --panel-strong: #0d1738;
+  --line: rgba(148, 163, 184, 0.16);
+  --text: #e5edf8;
+  --muted: #9db0cf;
+  --accent: #79a8ff;
+  --accent-2: #8ef0ff;
+  --shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background:
+    radial-gradient(circle at top, rgba(36, 76, 181, 0.22), transparent 30%),
+    linear-gradient(180deg, #04102a 0%, #07122b 100%);
+  color: var(--text);
+}
+
+a { color: inherit; text-decoration: none; }
+code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  background: rgba(255,255,255,0.08);
+  padding: 2px 8px;
+  border-radius: 8px;
+}
+
+.container {
+  width: min(1120px, calc(100% - 32px));
+  margin: 0 auto;
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  backdrop-filter: blur(18px);
+  background: rgba(4, 16, 42, 0.7);
+  border-bottom: 1px solid var(--line);
+}
+
+.site-header .container,
+.footer-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.site-header .container {
+  min-height: 68px;
+}
+
+.brand {
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.nav {
+  display: flex;
+  gap: 16px;
+  color: var(--muted);
+}
+
+.hero,
+.article-shell,
+.article-card {
+  border: 1px solid var(--line);
+  background: var(--panel);
+  box-shadow: var(--shadow);
+}
+
+.hero {
+  margin: 28px 0 20px;
+  border-radius: 28px;
+  padding: 32px;
+}
+
+.eyebrow,
+.section-label,
+.meta-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 12px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  background: rgba(121, 168, 255, 0.12);
+  color: var(--accent-2);
+}
+
+.hero h1,
+.section-head h2,
+.article-title {
+  letter-spacing: -0.03em;
+}
+
+.hero h1 {
+  margin: 14px 0 12px;
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  line-height: 1.05;
+}
+
+.hero-text,
+.article-summary,
+.article-content p,
+.empty-state,
+.updated-at {
+  color: var(--muted);
+  line-height: 1.75;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 22px;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 0 16px;
+  border-radius: 14px;
+  border: 1px solid var(--line);
+  background: rgba(255,255,255,0.04);
+}
+
+.button.primary {
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  color: #07122b;
+  font-weight: 800;
+  border: none;
+}
+
+.section-head {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 16px;
+  margin: 24px 0 18px;
+}
+
+.section-head h2 {
+  margin: 10px 0 0;
+  font-size: clamp(1.5rem, 3vw, 2.2rem);
+}
+
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 18px;
+  margin-bottom: 36px;
+}
+
+.article-card {
+  border-radius: 24px;
+  padding: 22px;
+}
+
+.article-card h3 {
+  margin: 16px 0 10px;
+  font-size: 1.35rem;
+  line-height: 1.25;
+}
+
+.card-meta,
+.article-meta {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+
+.read-more {
+  display: inline-flex;
+  margin-top: 18px;
+  color: var(--accent-2);
+  font-weight: 700;
+}
+
+.site-footer {
+  border-top: 1px solid var(--line);
+  margin-top: 20px;
+  padding: 22px 0 40px;
+  color: var(--muted);
+}
+
+.article-shell {
+  margin: 28px auto 48px;
+  border-radius: 28px;
+  padding: 32px;
+  width: min(920px, calc(100% - 32px));
+}
+
+.article-title {
+  margin: 16px 0 14px;
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  line-height: 1.08;
+}
+
+.article-summary {
+  font-size: 1.05rem;
+}
+
+.article-content {
+  margin-top: 26px;
+  padding-top: 24px;
+  border-top: 1px solid var(--line);
+}
+
+.article-content p {
+  margin: 0 0 18px;
+}
+
+.back-link {
+  display: inline-flex;
+  margin-bottom: 10px;
+  color: var(--accent-2);
+  font-weight: 700;
+}
+
+@media (max-width: 700px) {
+  .site-header .container,
+  .section-head,
+  .footer-inner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .hero,
+  .article-shell,
+  .article-card {
+    padding: 22px;
+    border-radius: 22px;
+  }
+}
