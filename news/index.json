@@ -2,21 +2,6 @@
   "siteTitle": "gorics.cloud News",
   "updatedAt": "2026-03-30 18:00 KST",
   "articles": [
-    {
-      "title": "미국 증시 체크 포인트 예시",
-      "slug": "2026-03-30-market-wrap",
-      "path": "/news/2026-03-30-market-wrap/",
-      "category": "Market Wrap",
-      "publishedAt": "2026-03-30",
-      "summary": "자동 뉴스 업로드 테스트를 위한 샘플 기사입니다. 앞으로 예약 작업이 이 구조를 따라 새 기사 페이지와 index.json을 갱신하면 됩니다."
-    },
-    {
-      "title": "GitHub Connector Test Success",
-      "slug": "test",
-      "path": "/news/test/",
-      "category": "System",
-      "publishedAt": "2026-03-30",
-      "summary": "ChatGPT와 GitHub 커넥터를 이용한 자동 파일 업로드 및 GitHub Pages 반영 테스트가 성공했습니다."
-    }
+
   ]
 }
