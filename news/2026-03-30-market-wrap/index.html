@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>미국 증시 체크 포인트 예시 | gorics.cloud News</title>
+  <meta name="description" content="자동 뉴스 업로드 구조 테스트를 위한 샘플 기사입니다." />
+  <link rel="stylesheet" href="/news/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="/news/">gorics.cloud News</a>
+      <nav class="nav">
+        <a href="/">Home</a>
+        <a href="/news/">News</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="article-shell">
+    <a class="back-link" href="/news/">← 뉴스 목록으로</a>
+    <span class="meta-chip">Market Wrap</span>
+    <h1 class="article-title">미국 증시 체크 포인트 예시</h1>
+    <div class="article-meta">
+      <span>발행일: 2026-03-30</span>
+      <span>작성방식: 자동 업로드 테스트</span>
+    </div>
+    <p class="article-summary">
+      이 문서는 GitHub 커넥터와 GitHub Pages를 이용한 자동 뉴스 퍼블리싱 구조를 검증하기 위한 샘플 기사다.
+      실제 운영에서는 예약 작업이 이 형식의 HTML을 자동으로 생성하고, 동시에 <code>/news/index.json</code> 목록도 갱신하면 된다.
+    </p>
+
+    <section class="article-content">
+      <p>첫째, 뉴스 사이트를 자동 운영하려면 기사 본문 파일과 기사 목록 파일을 분리하는 것이 좋다. 기사 본문은 개별 HTML 페이지로 보관하고, 목록은 JSON으로 관리하면 메인 뉴스 페이지에서 최신 글을 손쉽게 렌더링할 수 있다.</p>
+      <p>둘째, 경로 규칙을 일관되게 유지해야 한다. 예를 들어 <code>/news/날짜-slug/</code> 구조를 고정하면 예약 작업이 새 기사를 만들 때 충돌 가능성을 줄일 수 있고, 검색 엔진이나 사용자 입장에서도 URL 구조가 깔끔해진다.</p>
+      <p>셋째, 실제 금융 뉴스 운영을 할 경우에는 단순 복붙보다 해설과 구조화가 중요하다. 핵심 변수, 시장 영향, 리스크 요인, 일정 체크 포인트를 분리해서 정리해야 읽을 가치가 생긴다.</p>
+      <p>넷째, 현재 검증된 것은 ChatGPT가 GitHub 커넥터를 통해 파일을 생성하고, 그 결과가 GitHub Pages에 반영된다는 점이다. 즉 구조 자체는 실전 적용 가능 단계에 들어왔다.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 gorics.cloud</p>
+      <p>Sample article for publishing pipeline test</p>
+    </div>
+  </footer>
+</body>
+</html>
