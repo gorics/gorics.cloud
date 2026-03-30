@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>gorics.cloud News Pro</title>
+  <meta name="description" content="광고 영역, 검색, 카테고리 필터를 포함한 gorics.cloud 뉴스 프로 레이아웃" />
+  <link rel="stylesheet" href="/news/pro/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container topbar">
+      <a class="brand" href="/news/pro/">gorics.cloud <span>News Pro</span></a>
+      <nav class="nav">
+        <a href="/">Home</a>
+        <a href="/news/">Basic</a>
+        <a href="/news/pro/">Pro</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container page-shell">
+    <section class="hero-grid">
+      <article class="hero-card">
+        <p class="eyebrow">MONETIZATION READY</p>
+        <h1>검색, 카테고리, 광고 자리까지 준비된 뉴스 홈</h1>
+        <p class="hero-text">이 버전은 금융 뉴스 자동 업로드를 실제 운영형에 가깝게 테스트하기 위한 프로 레이아웃이다. 기사 데이터는 <code>/news/index.json</code> 에서 읽어오며, 추후 애드센스 코드나 자체 배너를 꽂기 쉬운 구조로 설계했다.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="/news/index.json">기사 JSON</a>
+          <a class="button" href="/news/">기본 버전</a>
+        </div>
+      </article>
+      <aside class="ad-panel">
+        <p class="ad-label">AD SLOT</p>
+        <h2>헤더 배너 자리</h2>
+        <p>여기에 추후 Google AdSense 또는 자체 배너 코드를 넣으면 된다.</p>
+      </aside>
+    </section>
+
+    <section class="toolbar">
+      <div class="toolbar-head">
+        <div>
+          <p class="section-label">Latest Feed</p>
+          <h2>자동 업로드 기사</h2>
+        </div>
+        <p id="updatedAt" class="updated-at">불러오는 중...</p>
+      </div>
+
+      <div class="toolbar-controls">
+        <div class="search-box">
+          <label for="searchInput">검색</label>
+          <input id="searchInput" type="search" placeholder="제목 또는 요약 검색" />
+        </div>
+        <div class="filter-box">
+          <span>카테고리</span>
+          <div id="categoryFilters" class="filter-chips"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-grid">
+      <div>
+        <div id="newsGrid" class="news-grid" aria-live="polite"></div>
+      </div>
+
+      <aside class="sidebar">
+        <section class="side-card sticky-card">
+          <p class="ad-label">AD SLOT</p>
+          <h3>사이드바 광고 자리</h3>
+          <p>300x250, 반응형 배너, 자체 제휴 링크 배치용</p>
+        </section>
+
+        <section class="side-card">
+          <p class="section-label">운영 체크</p>
+          <ul class="check-list">
+            <li>기사 HTML 생성</li>
+            <li>index.json 최신순 갱신</li>
+            <li>경로 규칙 유지</li>
+            <li>낚시성 제목 금지</li>
+          </ul>
+        </section>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 gorics.cloud</p>
+      <p>News Pro layout for automated publishing</p>
+    </div>
+  </footer>
+
+  <script src="/news/pro/app.js"></script>
+</body>
+</html>
