@@ -1,7 +1,86 @@
 {
   "siteTitle": "gorics.cloud News",
-  "updatedAt": "2026-03-30 18:00 KST",
+  "updatedAt": "2026-03-31 12:12 KST",
   "articles": [
-
+    {
+      "title": "독일 3월 물가 2.8%…에너지 반등이 유로존 인플레 경계 확대",
+      "slug": "financial-2026-03-31-germany-inflation",
+      "path": "/news/financial/",
+      "category": "financial",
+      "publishedAt": "2026-03-31",
+      "summary": "독일의 EU 조화 소비자물가 상승률이 2월 2.0%에서 3월 2.8%로 뛰었다. 에너지 가격 상승이 직접 요인이며, 서비스 물가도 높아 ECB 부담이 커졌다."
+    },
+    {
+      "title": "BOJ, 유가·엔저발 인플레 압력 경고…일본 통화정책 부담 확대",
+      "slug": "financial-2026-03-31-boj-inflation",
+      "path": "/news/financial/",
+      "category": "financial",
+      "publishedAt": "2026-03-31",
+      "summary": "일본은행은 유가 상승과 엔화 약세가 기조적 인플레를 더 밀어 올릴 수 있다고 진단했다. 단기 공급 충격이 중기 인플레 기대를 자극할 수 있다는 해석이다."
+    },
+    {
+      "title": "월가 약세 지속…중동 변수 속 기술주 약하고 금융·에너지는 상대 방어",
+      "slug": "stock-2026-03-31-wallstreet-mixed",
+      "path": "/news/stock/",
+      "category": "stock",
+      "publishedAt": "2026-03-31",
+      "summary": "미국 증시는 반등 시도 뒤 다시 약세를 보였다. 기술주 중심 조정이 이어졌고, 금융주는 상대적으로 선방했다."
+    },
+    {
+      "title": "모건스탠리, 글로벌 주식 비중 하향…미국은 방어적 시장 평가",
+      "slug": "stock-2026-03-31-morgan-stanley",
+      "path": "/news/stock/",
+      "category": "stock",
+      "publishedAt": "2026-03-31",
+      "summary": "중동 리스크와 유가 급등을 반영해 글로벌 주식 의견이 낮아졌다. 미국 자산은 상대적 방어처로 재평가됐다."
+    },
+    {
+      "title": "한국, 유가 급등 시 전국적 차량 운행 제한 검토…연료세 카드도 검토",
+      "slug": "money-2026-03-31-driving-curbs",
+      "path": "/news/money/",
+      "category": "money",
+      "publishedAt": "2026-03-31",
+      "summary": "국제유가가 더 치솟을 경우 정부가 공공부문을 넘어 일반 국민 대상 수요 관리까지 검토할 수 있다는 신호가 나왔다. 생활비와 유류비 부담에 직접 연결되는 뉴스다."
+    },
+    {
+      "title": "영국, 자동차 금융 보상안 발표 수순…소비자 금융 규제 리스크 부각",
+      "slug": "money-2026-03-31-motor-finance-redress",
+      "path": "/news/money/",
+      "category": "money",
+      "publishedAt": "2026-03-31",
+      "summary": "영국 금융당국이 자동차 금융 오판매 보상안을 내놓을 예정이어서 소비자 금융업계 부담이 커지고 있다. 대출 수수료 구조와 금리 산정의 불공정성이 핵심 쟁점이다."
+    },
+    {
+      "title": "이재명 정부, 전작권 전환·선택적 징병제 추진 방향 제시",
+      "slug": "social-2026-03-31-opcon-conscription",
+      "path": "/news/social/",
+      "category": "social",
+      "publishedAt": "2026-03-31",
+      "summary": "정부가 전시작전통제권 전환과 병역제도 개편을 함께 추진하겠다는 방향을 제시했다. 안보와 병역 자원 감소가 동시에 맞물리는 사회적 쟁점이다."
+    },
+    {
+      "title": "학령인구 감소의 역풍…학교 폐교와 지역 교육 지형 재편 가속",
+      "slug": "education-2026-03-31-school-closures",
+      "path": "/news/education/",
+      "category": "education",
+      "publishedAt": "2026-03-31",
+      "summary": "저출생 여파로 학교 문을 닫는 지역이 늘고 있다. 교육 접근성과 지역 공동체 구조, 지방 선거구 변화까지 연결되는 장기 구조 이슈다."
+    },
+    {
+      "title": "수능 영어에 AI 도입 예고…2028학년도 모의평가 활용 목표",
+      "slug": "csat-2026-03-31-ai-english",
+      "path": "/news/csat/",
+      "category": "csat",
+      "publishedAt": "2026-03-31",
+      "summary": "교육당국이 수능 영어 지문 생성·검토 체계에 AI를 도입해 2028학년도 모의평가부터 활용하는 방안을 추진하고 있다."
+    },
+    {
+      "title": "2027학년도 의대 정원 3,548명 확정…대입 구도 다시 흔든다",
+      "slug": "csat-2026-03-31-med-school-quota",
+      "path": "/news/csat/",
+      "category": "csat",
+      "publishedAt": "2026-03-31",
+      "summary": "2027학년도 의대 모집정원이 3,548명으로 확정됐다. 상위권 수험생 이동과 정시·수시 경쟁 구도에 연쇄 파급이 예상된다."
+    }
   ]
 }
