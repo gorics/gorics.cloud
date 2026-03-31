@@ -1,6 +1,6 @@
 {
   "siteTitle": "gorics.cloud News",
-  "updatedAt": "2026-03-31 12:12 KST",
+  "updatedAt": "2026-03-31 12:48 KST",
   "articles": [
     {
       "title": "독일 3월 물가 2.8%…에너지 반등이 유로존 인플레 경계 확대",
@@ -19,6 +19,14 @@
       "summary": "일본은행은 유가 상승과 엔화 약세가 기조적 인플레를 더 밀어 올릴 수 있다고 진단했다. 단기 공급 충격이 중기 인플레 기대를 자극할 수 있다는 해석이다."
     },
     {
+      "title": "미 10년물 금리 재상승…연준 인하 기대 2분기로 후퇴",
+      "slug": "financial-2026-03-31-us10y-rates",
+      "path": "/news/financial/",
+      "category": "financial",
+      "publishedAt": "2026-03-31",
+      "summary": "미국 국채 금리가 유가·임금 변수로 다시 올라 성장주 밸류에이션 부담이 커졌다. 시장은 연준의 첫 인하 시점을 더 늦춰 반영하고 있다."
+    },
+    {
       "title": "월가 약세 지속…중동 변수 속 기술주 약하고 금융·에너지는 상대 방어",
       "slug": "stock-2026-03-31-wallstreet-mixed",
       "path": "/news/stock/",
@@ -33,6 +41,14 @@
       "category": "stock",
       "publishedAt": "2026-03-31",
       "summary": "중동 리스크와 유가 급등을 반영해 글로벌 주식 의견이 낮아졌다. 미국 자산은 상대적 방어처로 재평가됐다."
+    },
+    {
+      "title": "반도체 장비주, 실적 가이던스 엇갈려 변동성 확대",
+      "slug": "stock-2026-03-31-semiconductor-guidance",
+      "path": "/news/stock/",
+      "category": "stock",
+      "publishedAt": "2026-03-31",
+      "summary": "메모리 수요 개선 기대와 설비투자 보수화가 동시에 나타나며 관련 종목 주가가 크게 흔들렸다. 종목별 옥석 가리기가 본격화되는 국면이다."
     },
     {
       "title": "한국, 유가 급등 시 전국적 차량 운행 제한 검토…연료세 카드도 검토",
@@ -51,6 +67,14 @@
       "summary": "영국 금융당국이 자동차 금융 오판매 보상안을 내놓을 예정이어서 소비자 금융업계 부담이 커지고 있다. 대출 수수료 구조와 금리 산정의 불공정성이 핵심 쟁점이다."
     },
     {
+      "title": "전월세 보증보험 문턱 완화 논의…청년층 주거비 완충 기대",
+      "slug": "money-2026-03-31-rent-insurance",
+      "path": "/news/money/",
+      "category": "money",
+      "publishedAt": "2026-03-31",
+      "summary": "보증 가입 요건이 완화되면 보증금 리스크가 낮아지는 반면, 손해율 관리와 보험료 조정 이슈가 함께 부각될 전망이다."
+    },
+    {
       "title": "이재명 정부, 전작권 전환·선택적 징병제 추진 방향 제시",
       "slug": "social-2026-03-31-opcon-conscription",
       "path": "/news/social/",
@@ -59,12 +83,44 @@
       "summary": "정부가 전시작전통제권 전환과 병역제도 개편을 함께 추진하겠다는 방향을 제시했다. 안보와 병역 자원 감소가 동시에 맞물리는 사회적 쟁점이다."
     },
     {
+      "title": "주 4.5일제 시범 확산…중소기업 생산성·인력난 해법 논쟁",
+      "slug": "social-2026-03-31-workweek-pilot",
+      "path": "/news/social/",
+      "category": "social",
+      "publishedAt": "2026-03-31",
+      "summary": "근로시간 유연화와 임금체계 개편을 함께 묶어야 실효성이 난다는 주장과 현장 비용이 먼저라는 반론이 맞서고 있다."
+    },
+    {
+      "title": "고령 운전자 면허 갱신 강화안 공론화…이동권·안전 균형 쟁점",
+      "slug": "social-2026-03-31-senior-driver-license",
+      "path": "/news/social/",
+      "category": "social",
+      "publishedAt": "2026-03-31",
+      "summary": "교통사고 예방을 위한 적성검사 강화가 논의되는 가운데, 지역 대중교통 격차가 큰 현실에서 이동권 보완책이 핵심 과제로 떠올랐다."
+    },
+    {
       "title": "학령인구 감소의 역풍…학교 폐교와 지역 교육 지형 재편 가속",
       "slug": "education-2026-03-31-school-closures",
       "path": "/news/education/",
       "category": "education",
       "publishedAt": "2026-03-31",
       "summary": "저출생 여파로 학교 문을 닫는 지역이 늘고 있다. 교육 접근성과 지역 공동체 구조, 지방 선거구 변화까지 연결되는 장기 구조 이슈다."
+    },
+    {
+      "title": "AI 튜터 공교육 시범 확대…학습격차 완화 vs 데이터 윤리 논쟁",
+      "slug": "education-2026-03-31-ai-tutor",
+      "path": "/news/education/",
+      "category": "education",
+      "publishedAt": "2026-03-31",
+      "summary": "개인별 학습 진단 정확도는 높아졌지만, 학습 데이터 보관과 민감정보 처리 기준을 둘러싼 제도 정비가 병행돼야 한다는 지적이 커지고 있다."
+    },
+    {
+      "title": "지방대 연합전공 확산…학과 경계 허물고 취업 연계 강화",
+      "slug": "education-2026-03-31-regional-univ-major",
+      "path": "/news/education/",
+      "category": "education",
+      "publishedAt": "2026-03-31",
+      "summary": "학생 수 감소에 대응해 대학 간 공동 커리큘럼과 학점 교류가 확대되고 있다. 지역 산업과 연결된 실무형 전공 재편이 핵심 흐름이다."
     },
     {
       "title": "수능 영어에 AI 도입 예고…2028학년도 모의평가 활용 목표",
@@ -81,6 +137,14 @@
       "category": "csat",
       "publishedAt": "2026-03-31",
       "summary": "2027학년도 의대 모집정원이 3,548명으로 확정됐다. 상위권 수험생 이동과 정시·수시 경쟁 구도에 연쇄 파급이 예상된다."
+    },
+    {
+      "title": "N수생 증가 전망…정시 상위권 컷 변동성 커진다",
+      "slug": "csat-2026-03-31-retaker-rise",
+      "path": "/news/csat/",
+      "category": "csat",
+      "publishedAt": "2026-03-31",
+      "summary": "의약학계열 선호와 재도전 수요가 맞물리며 상위권 표준점수 경쟁이 더욱 치열해질 것으로 보인다."
     }
   ]
 }
