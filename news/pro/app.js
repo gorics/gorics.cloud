@@ -4,7 +4,15 @@ const updatedAt=document.getElementById('updatedAt');
 const searchInput=document.getElementById('searchInput');
 const categoryFilters=document.getElementById('categoryFilters');
 
-function escapeHtml(value=''){return value.replace(/[&<>\"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));}
+function escapeHtml(value = '') {
+  return String(value).replace(/[&<>"']/g, m => ({
+    '&': '&amp;',
+    '<': '&lt;',
+    '>': '&gt;',
+    '"': '&quot;',
+    "'": '&#39;'
+  }[m]));
+}
 
 function renderFilters(){
   const categories=['All',...new Set(state.articles.map(a=>a.category).filter(Boolean))];

@@ -1,7 +1,23 @@
 {
   "siteTitle": "gorics.cloud News",
-  "updatedAt": "2026-03-31 12:12 KST",
+  "updatedAt": "2026-03-31 16:20 KST",
   "articles": [
+    {
+      "title": "AI 에이전트 'Jules', 뉴스 시스템 보안 강화 작업 완료",
+      "slug": "tech-2026-03-31-jules-security-patch",
+      "path": "/news/tech/",
+      "category": "tech",
+      "publishedAt": "2026-03-31",
+      "summary": "코드 헬스 에이전트 Jules가 뉴스 시스템의 XSS 취약점을 해결하고 렌더링 로직을 최적화했습니다. 이번 작업으로 사용자 데이터 보안이 한층 강화되었습니다."
+    },
+    {
+      "title": "[단독] <보안 업데이트> 'XSS 취약점' 해결 완료 & \"안전한 렌더링\" 확인",
+      "slug": "security-2026-03-31-xss-fix",
+      "path": "/news/security/",
+      "category": "security",
+      "publishedAt": "2026-03-31",
+      "summary": "뉴스 앱의 보안 강화를 위해 HTML Escaping 처리가 도입되었습니다. 이제 <script>alert('XSS')</script>와 같은 악성 코드 삽입 시도가 차단됩니다."
+    },
     {
       "title": "독일 3월 물가 2.8%…에너지 반등이 유로존 인플레 경계 확대",
       "slug": "financial-2026-03-31-germany-inflation",
