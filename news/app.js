@@ -1,11 +1,40 @@
 function escapeHtml(value = '') {
-  return String(value).replace(/[&<>"']/g, m => ({
+  return String(value).replace(/[&<>"']/g, (m) => ({
     '&': '&amp;',
     '<': '&lt;',
     '>': '&gt;',
     '"': '&quot;',
     "'": '&#39;'
   }[m]));
+}
+
+function categoryLabel(category = '') {
+  const map = {
+    financial: '금융',
+    stock: '증시',
+    money: '생활경제',
+    social: '사회',
+    education: '교육',
+    csat: '수능'
+  };
+
+  return map[category] || category || '기타';
+}
+
+function renderArticleCard(article) {
+  const tags = [article.category, article.publishedAt].filter(Boolean)
+    .map((value) => `<span>${escapeHtml(value)}</span>`)
+    .join('');
+
+  return `
+    <article class="article-card">
+      <span class="meta-chip">${escapeHtml(article.category || 'News')}</span>
+      <h3>${escapeHtml(article.title || '제목 없음')}</h3>
+      <div class="card-meta">${tags}</div>
+      <p class="article-summary">${escapeHtml(article.summary || '')}</p>
+      <a class="read-more" href="${escapeHtml(article.path || '#')}">기사 보기 →</a>
+    </article>
+  `;
 }
 
 async function loadNews() {
@@ -28,21 +57,30 @@ async function loadNews() {
       return;
     }
 
-    grid.innerHTML = articles.map((article) => {
-      const tags = [article.category, article.publishedAt].filter(Boolean)
-        .map(value => `<span>${escapeHtml(value)}</span>`)
-        .join('');
+    const grouped = articles.reduce((acc, article) => {
+      const key = article.category || 'etc';
+      if (!acc[key]) acc[key] = [];
+      acc[key].push(article);
+      return acc;
+    }, {});
 
-      return `
-        <article class="article-card">
-          <span class="meta-chip">${escapeHtml(article.category || 'News')}</span>
-          <h3>${escapeHtml(article.title || '제목 없음')}</h3>
-          <div class="card-meta">${tags}</div>
-          <p class="article-summary">${escapeHtml(article.summary || '')}</p>
-          <a class="read-more" href="${escapeHtml(article.path || '#')}">기사 보기 →</a>
-        </article>
-      `;
-    }).join('');
+    const categoryOrder = ['financial', 'stock', 'money', 'social', 'education', 'csat'];
+    const orderedKeys = [
+      ...categoryOrder.filter((category) => grouped[category]),
+      ...Object.keys(grouped).filter((category) => !categoryOrder.includes(category))
+    ];
+
+    grid.innerHTML = orderedKeys.map((category) => `
+      <section class="category-block">
+        <div class="category-head">
+          <p class="section-label">${escapeHtml(category)}</p>
+          <h3>${escapeHtml(categoryLabel(category))} 섹터</h3>
+        </div>
+        <div class="news-grid sector-grid">
+          ${grouped[category].map(renderArticleCard).join('')}
+        </div>
+      </section>
+    `).join('');
   } catch (error) {
     console.error(error);
     grid.innerHTML = '<div class="article-card empty-state">뉴스 목록을 불러오지 못했습니다.</div>';
