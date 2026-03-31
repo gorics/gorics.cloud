@@ -1,3 +1,13 @@
+function escapeHtml(value = '') {
+  return String(value).replace(/[&<>"']/g, m => ({
+    '&': '&amp;',
+    '<': '&lt;',
+    '>': '&gt;',
+    '"': '&quot;',
+    "'": '&#39;'
+  }[m]));
+}
+
 async function loadNews() {
   const grid = document.getElementById('newsGrid');
   const updatedAt = document.getElementById('updatedAt');
@@ -20,16 +30,16 @@ async function loadNews() {
 
     grid.innerHTML = articles.map((article) => {
       const tags = [article.category, article.publishedAt].filter(Boolean)
-        .map(value => `<span>${value}</span>`)
+        .map(value => `<span>${escapeHtml(value)}</span>`)
         .join('');
 
       return `
         <article class="article-card">
-          <span class="meta-chip">${article.category || 'News'}</span>
-          <h3>${article.title || '제목 없음'}</h3>
+          <span class="meta-chip">${escapeHtml(article.category || 'News')}</span>
+          <h3>${escapeHtml(article.title || '제목 없음')}</h3>
           <div class="card-meta">${tags}</div>
-          <p class="article-summary">${article.summary || ''}</p>
-          <a class="read-more" href="${article.path || '#'}">기사 보기 →</a>
+          <p class="article-summary">${escapeHtml(article.summary || '')}</p>
+          <a class="read-more" href="${escapeHtml(article.path || '#')}">기사 보기 →</a>
         </article>
       `;
     }).join('');
