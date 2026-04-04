@@ -1,7 +1,15 @@
 {
   "siteTitle": "gorics.cloud News",
-  "updatedAt": "2026-03-31 13:10 KST",
+  "updatedAt": "2026-04-04 10:30 KST",
   "articles": [
+    {
+      "title": "삼성전자 1분기 잠정실적 발표 예고…시장 컨센서스 상회 여부 촉각",
+      "slug": "stock-2026-04-04-samsung-earnings-preview",
+      "path": "/news/articles/stock-2026-04-04-samsung-earnings-preview.html",
+      "category": "stock",
+      "publishedAt": "2026-04-04",
+      "summary": "오는 7일 삼성전자의 1분기 잠정 실적 발표를 앞두고 증권가의 눈높이가 높아지고 있다. 반도체 부문 실적 개선세가 전체 영업이익을 견인할 것으로 예상되는 가운데, 시장 컨센서스 부합 여부가 향후 주가 방향성을 결정할 핵심 변수로 작용할 전망이다."
+    },
     {
       "title": "독일 3월 물가 2.8%…에너지 반등이 유로존 인플레 경계 확대",
       "slug": "financial-2026-03-31-germany-inflation",
