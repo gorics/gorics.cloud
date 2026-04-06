@@ -1,7 +1,55 @@
 {
   "siteTitle": "gorics.cloud News",
-  "updatedAt": "2026-03-31 13:10 KST",
+  "updatedAt": "2026-04-06 18:30 KST",
   "articles": [
+    {
+      "title": "유럽중앙은행(ECB), 4월 금리 인하 기대감 후퇴…근원물가 부담 여전",
+      "slug": "financial-2026-04-06-ecb-rate-cut",
+      "path": "/news/articles/financial-2026-04-06-ecb-rate-cut.html",
+      "category": "financial",
+      "publishedAt": "2026-04-06 18:30 KST",
+      "summary": "유로존 근원 인플레이션이 시장 예상보다 더디게 둔화되면서 ECB의 4월 조기 금리 인하론이 빠르게 식고 있다. 서비스 임금 상승 압력이 여전해 시장은 6월 이후로 피벗 시점을 늦춰 잡고 있다."
+    },
+    {
+      "title": "미국 반도체 지수 조정 속 AI 관련주 차별화…실적 장세 돌입",
+      "slug": "stock-2026-04-06-semiconductor-ai",
+      "path": "/news/articles/stock-2026-04-06-semiconductor-ai.html",
+      "category": "stock",
+      "publishedAt": "2026-04-06 18:30 KST",
+      "summary": "미국 반도체 섹터가 밸류에이션 부담으로 조정을 겪는 가운데, AI 수요가 실제 매출로 확인되는 기업 위주로 옥석 가리기가 본격화되고 있다. 막연한 기대감을 넘어선 실적 장세 국면이다."
+    },
+    {
+      "title": "저축은행 정기예금 금리 슬금슬금 하락…수신 자금 이탈 우려 방어 총력",
+      "slug": "money-2026-04-06-savings-bank-rates",
+      "path": "/news/articles/money-2026-04-06-savings-bank-rates.html",
+      "category": "money",
+      "publishedAt": "2026-04-06 18:30 KST",
+      "summary": "저축은행 정기예금 금리가 낮아지며 시중은행과의 격차가 줄어 수신 자금 이탈 조짐이 보이고 있다. 업계는 파킹통장 등 단기 자금 유치 특판으로 방어에 나서며 건전성 관리에 집중하고 있다."
+    },
+    {
+      "title": "청년 도약 계좌 1년…해지율 증가 속 제도 실효성 제고 목소리 커져",
+      "slug": "social-2026-04-06-youth-savings-account",
+      "path": "/news/articles/social-2026-04-06-youth-savings-account.html",
+      "category": "social",
+      "publishedAt": "2026-04-06 18:30 KST",
+      "summary": "출시 1년을 넘긴 청년도약계좌의 중도 해지율이 증가하면서 제도 보완 요구가 커지고 있다. 긴 만기와 생활비 부담이 겹친 결과로, 부분 인출 허용 등 유연한 개편이 필요하다는 지적이다."
+    },
+    {
+      "title": "늘봄학교 전면 도입 한 학기, 현장 인력 부족·공간 확보 갈등 지속",
+      "slug": "education-2026-04-06-neulbom-school",
+      "path": "/news/articles/education-2026-04-06-neulbom-school.html",
+      "category": "education",
+      "publishedAt": "2026-04-06 18:30 KST",
+      "summary": "늘봄학교 전면 도입 후 학부모 만족도는 높으나, 학교 현장에서는 전담 인력 미충원과 유휴 공간 부족으로 인한 교원 업무 부담 갈등이 계속되고 있다."
+    },
+    {
+      "title": "무전공 입학 확대 여파…올해 정시 상위권 지원 전략 '안갯속'",
+      "slug": "csat-2026-04-06-undeclared-major",
+      "path": "/news/articles/csat-2026-04-06-undeclared-major.html",
+      "category": "csat",
+      "publishedAt": "2026-04-06 18:30 KST",
+      "summary": "주요 대학의 무전공 선발 확대와 의대 증원 이슈가 맞물려 올해 정시 상위권 지원 전략의 불확실성이 커졌다. 과거 합격선 데이터 활용이 어려워져 눈치싸움이 치열할 전망이다."
+    },
     {
       "title": "독일 3월 물가 2.8%…에너지 반등이 유로존 인플레 경계 확대",
       "slug": "financial-2026-03-31-germany-inflation",
