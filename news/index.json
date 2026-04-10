@@ -3,6 +3,30 @@
   "updatedAt": "2026-03-31 13:10 KST",
   "articles": [
     {
+      "title": "한국은행, 기준금리 3.50% 동결…가계부채와 물가 불확실성 경계",
+      "slug": "financial-2026-04-10-bok-rates",
+      "path": "/news/financial/",
+      "category": "financial",
+      "publishedAt": "2026-04-10",
+      "summary": "한국은행 금융통화위원회가 기준금리를 연 3.50%로 동결했습니다. 물가 둔화 흐름이 이어지고 있지만 지정학적 리스크와 가계부채 증가세에 대한 경계감을 늦추지 않는 모습입니다."
+    },
+    {
+      "title": "미국 증시 강세, 기술주 실적 기대감에 S&P 500 상승 마감",
+      "slug": "stock-2026-04-10-us-market",
+      "path": "/news/stock/",
+      "category": "stock",
+      "publishedAt": "2026-04-10",
+      "summary": "간밤 뉴욕 증시가 주요 기술 기업들의 호실적 전망에 힘입어 상승 마감했습니다. 1분기 어닝 시즌이 본격화되면서 반도체와 AI 관련주 중심으로 매수세가 유입되었습니다."
+    },
+    {
+      "title": "청약 경쟁률 양극화 심화…분양가 상한제 단지 쏠림 뚜렷",
+      "slug": "money-2026-04-10-housing-subscription",
+      "path": "/news/money/",
+      "category": "money",
+      "publishedAt": "2026-04-10",
+      "summary": "최근 아파트 청약 시장에서 분양가에 따른 양극화 현상이 더욱 뚜렷해지고 있습니다. 주변 시세 대비 저렴한 분양가 상한제 적용 단지에만 수만 명의 청약자가 몰리고 있습니다."
+    },
+    {
       "title": "독일 3월 물가 2.8%…에너지 반등이 유로존 인플레 경계 확대",
       "slug": "financial-2026-03-31-germany-inflation",
       "path": "/news/financial/",
