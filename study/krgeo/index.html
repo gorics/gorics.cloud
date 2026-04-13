@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>한국지리 집중 학습 | gorics.cloud</title>
+  <meta name="description" content="2027 수능 한국지리 대비용 개념 정리, 지역별 비교, OX/객관식 퀴즈, 오답노트 기능을 한 번에 제공하는 한국지리 학습 사이트" />
+  <meta name="theme-color" content="#0f172a" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="hero">
+      <div>
+        <p class="eyebrow">gorics.cloud · Study / Korean Geography</p>
+        <h1>한국지리 전범위 집중 학습</h1>
+        <p class="hero-copy">개념 암기 → 지역 비교 → 문제 풀이 → 오답 복습까지 한 번에 돌리는 한국지리 전용 미니앱.</p>
+      </div>
+      <div class="hero-badges">
+        <span>수능 범위 중심</span>
+        <span>객관식 퀴즈</span>
+        <span>오답노트 저장</span>
+      </div>
+    </header>
+
+    <main class="grid">
+      <section class="panel span-2">
+        <div class="panel-head">
+          <h2>핵심 단원 요약</h2>
+          <div class="controls">
+            <label>
+              단원
+              <select id="topicSelect"></select>
+            </label>
+          </div>
+        </div>
+        <article id="topicCard" class="topic-card"></article>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <h2>지역 비교 포인트</h2>
+        </div>
+        <div id="compareList" class="compare-list"></div>
+      </section>
+
+      <section class="panel span-2">
+        <div class="panel-head">
+          <h2>퀴즈 모드</h2>
+          <div class="quiz-stats">
+            <span id="scoreText">점수 0</span>
+            <span id="streakText">연속 정답 0</span>
+          </div>
+        </div>
+        <div id="quizBox" class="quiz-box"></div>
+        <div class="quiz-actions">
+          <button id="nextBtn" class="primary-btn">다음 문제</button>
+          <button id="resetBtn" class="ghost-btn">기록 초기화</button>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <h2>오답노트</h2>
+        </div>
+        <div id="wrongNote" class="wrong-note"></div>
+      </section>
+
+      <section class="panel span-3">
+        <div class="panel-head">
+          <h2>빠른 암기 체크리스트</h2>
+        </div>
+        <div id="memoryChecklist" class="memory-grid"></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>Path: /study/krgeo/</span>
+      <span>Made for rapid Korean geography review</span>
+    </footer>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
