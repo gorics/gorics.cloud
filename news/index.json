@@ -1,7 +1,23 @@
 {
-  "siteTitle": "gorics.cloud News",
-  "updatedAt": "2026-03-31 13:10 KST",
+  "siteTitle": "gorcis.cloud News",
+  "updatedAt": "2026-04-14 10:30 KST",
   "articles": [
+    {
+      "title": "ADB 아시아 경제전망: AI 수요가 성장 방어하나, 물가 변동성은 여전",
+      "slug": "financial-2026-04-14-adb-economic-outlook",
+      "path": "/news/articles/2026-04-14-adb-economic-outlook.html",
+      "category": "financial",
+      "publishedAt": "2026-04-14",
+      "summary": "아시아개발은행(ADB)이 발표한 2026년 4월 아시아 경제전망에 따르면, 역내 경제가 AI 산업 확장으로 견조한 성장세를 유지할 것으로 보이나 중동발 리스크로 인한 인플레이션 압력이 여전히 높다고 분석됐다."
+    },
+    {
+      "title": "싱가포르 통화청(MAS), 4월 정책 리뷰서 인플레 경계 속 환율 밴드 상향 조정",
+      "slug": "financial-2026-04-14-mas-policy-review",
+      "path": "/news/articles/2026-04-14-mas-policy-review.html",
+      "category": "financial",
+      "publishedAt": "2026-04-14",
+      "summary": "싱가포르 통화청이 글로벌 에너지 및 수입 물가 상승으로 인한 인플레이션 상방 압력에 선제적으로 대응하기 위해 싱가포르 달러의 명목 실효환율 정책 밴드 절상 속도를 소폭 높였다."
+    },
     {
       "title": "독일 3월 물가 2.8%…에너지 반등이 유로존 인플레 경계 확대",
       "slug": "financial-2026-03-31-germany-inflation",
