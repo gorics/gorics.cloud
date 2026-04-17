@@ -1,2 +1,2 @@
-# gorics.cloud
-gorics.cloud
+# gorcis.cloud
+gorcis.cloud
