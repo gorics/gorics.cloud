@@ -1,7 +1,15 @@
 {
-  "siteTitle": "gorics.cloud News",
-  "updatedAt": "2026-03-31 13:10 KST",
+  "siteTitle": "gorcis.cloud News",
+  "updatedAt": "2026-04-18 10:30 KST",
   "articles": [
+    {
+      "title": "미 연준·유럽중앙은행(ECB) 통화정책 탈동조화 가시화…유로화 약세 압력 커져",
+      "slug": "financial-2026-04-18-ecb-fed-divergence",
+      "path": "/news/articles/financial-2026-04-18-ecb-fed-divergence/",
+      "category": "financial",
+      "publishedAt": "2026-04-18",
+      "summary": "미 연준이 금리 인하에 신중한 반면, ECB는 경기 침체를 막기 위해 선제적인 인하 가능성을 높이며 양국 중앙은행 간 통화정책 디커플링이 뚜렷해지고 있다."
+    },
     {
       "title": "독일 3월 물가 2.8%…에너지 반등이 유로존 인플레 경계 확대",
       "slug": "financial-2026-03-31-germany-inflation",
