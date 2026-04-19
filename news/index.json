@@ -1,7 +1,31 @@
 {
-  "siteTitle": "gorics.cloud News",
-  "updatedAt": "2026-03-31 13:10 KST",
+  "siteTitle": "gorcis.cloud News",
+  "updatedAt": "2026-04-19 18:30 KST",
   "articles": [
+    {
+      "title": "중동 변수 장기화에 원유 수입망 다변화 가속…미국산 수입 비중 확대 전망",
+      "slug": "financial-2026-04-19-us-oil-import",
+      "path": "/news/articles/financial-2026-04-19-us-oil-import.html",
+      "category": "financial",
+      "publishedAt": "2026-04-19",
+      "summary": "중동 정세 불안이 이어지며 국내 원유 도입 구조가 재편될 조짐을 보이고 있다. 기존 중동산 중심에서 벗어나, 공급망 안정화 차원에서 미국산 원유 수입을 점진적으로 확대해야 한다는 관측이 힘을 얻고 있다."
+    },
+    {
+      "title": "재계 총수 대거 인도·베트남 순방 동행…아시아 핵심 시장 공략 속도",
+      "slug": "stock-2026-04-19-asia-business-trip",
+      "path": "/news/articles/stock-2026-04-19-asia-business-trip.html",
+      "category": "stock",
+      "publishedAt": "2026-04-19",
+      "summary": "삼성, 현대차, LG 등 주요 그룹 총수들이 인도와 베트남 순방 경제사절단으로 출국했다. 글로벌 공급망 재편 속에서 두 국가가 새로운 생산 및 소비 거점으로 부상함에 따라 현지 사업 확대와 업무협약 체결에 시장의 이목이 집중된다."
+    },
+    {
+      "title": "등록 장애인 10명 중 6명은 노인…고령화에 맞춘 정책 패러다임 전환 시급",
+      "slug": "social-2026-04-19-disabled-aging",
+      "path": "/news/articles/social-2026-04-19-disabled-aging.html",
+      "category": "social",
+      "publishedAt": "2026-04-19",
+      "summary": "국내 등록 장애인 중 65세 이상 노인의 비율이 60%에 육박하는 것으로 나타났다. 전체 인구 고령화와 맞물려 장애 인구의 연령 구조도 급변하면서, 돌봄과 연금을 아우르는 맞춤형 복지 제도의 재설계 필요성이 커지고 있다."
+    },
     {
       "title": "독일 3월 물가 2.8%…에너지 반등이 유로존 인플레 경계 확대",
       "slug": "financial-2026-03-31-germany-inflation",
