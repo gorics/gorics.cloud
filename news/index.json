@@ -1,7 +1,39 @@
 {
   "siteTitle": "gorics.cloud News",
-  "updatedAt": "2026-03-31 13:10 KST",
+  "updatedAt": "2026-04-03 18:30 KST",
   "articles": [
+    {
+      "title": "미국 4월 고용 둔화 조짐…연준 기준금리 인하 시점 저울질 재개",
+      "slug": "financial-2026-04-03-fed-rate-path",
+      "path": "/news/articles/financial-2026-04-03-fed-rate-path.html",
+      "category": "financial",
+      "publishedAt": "2026-04-03",
+      "summary": "4월 초 발표된 주요 미국의 선행 고용 지표들이 일제히 예상치를 하회하며 고용 시장의 열기가 식어가고 있다는 평가가 나온다. 이는 연준의 첫 금리 인하 시나리오가 다시 유력해질 수 있는 변수로 작용하고 있다."
+    },
+    {
+      "title": "빅테크 1분기 실적 시즌 개막 임박…AI 투자 회수율 검증대로",
+      "slug": "stock-2026-04-03-tech-earnings",
+      "path": "/news/articles/stock-2026-04-03-tech-earnings.html",
+      "category": "stock",
+      "publishedAt": "2026-04-03",
+      "summary": "미국 주요 기술 기업들의 1분기 실적 발표가 시작되며 AI 인프라 투자의 실질적 수익 증가분이 핵심 화두로 떠올랐다. 실적 결과에 따른 시장 주도주 변화 가능성이 4월 증시의 관전 포인트다."
+    },
+    {
+      "title": "봄 이사철 주담대 금리 변동성 확대…실수요자 자금 계획 셈법 복잡",
+      "slug": "money-2026-04-03-mortgage-rates",
+      "path": "/news/articles/money-2026-04-03-mortgage-rates.html",
+      "category": "money",
+      "publishedAt": "2026-04-03",
+      "summary": "봄 이사철을 맞아 시중은행의 주택담보대출 금리 편차가 확대되며 내 집 마련 실수요자들의 자금 조달 계획에 주의가 요구된다. 변동금리와 고정금리 간의 역전 현상 속 꼼꼼한 조건 비교가 필수적이다."
+    },
+    {
+      "title": "기업 원격근무 정책 축소, 대중교통 인프라 재편 요구로 이어져",
+      "slug": "social-2026-04-03-remote-work-trends",
+      "path": "/news/articles/social-2026-04-03-remote-work-trends.html",
+      "category": "social",
+      "publishedAt": "2026-04-03",
+      "summary": "대기업을 중심으로 사무실 복귀 정책이 강화되면서 도심 출퇴근 혼잡도가 급증했다. 지자체와 교통 전문가들은 장거리 출퇴근 피로도 해소를 위한 교통 체계 재편과 유연한 시스템 도입을 논의하고 있다."
+    },
     {
       "title": "독일 3월 물가 2.8%…에너지 반등이 유로존 인플레 경계 확대",
       "slug": "financial-2026-03-31-germany-inflation",
