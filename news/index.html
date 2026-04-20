@@ -1,49 +1,444 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ko">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>gorics.cloud News</title>
-  <meta name="description" content="gorics.cloud 뉴스 허브입니다." />
-  <link rel="stylesheet" href="/news/styles.css" />
-</head>
-<body>
-  <header class="site-header">
-    <div class="container">
-      <a class="brand" href="/news/">gorics.cloud News</a>
-      <nav class="nav">
-        <a href="/">Home</a>
-        <a href="/news/">News</a>
-      </nav>
-    </div>
-  </header>
-
-  <main class="container">
-    <section class="hero">
-      <p class="eyebrow">NEWS HUB</p>
-      <h1>최신 뉴스</h1>
-      <p class="hero-text">
-        주요 기사와 최신 이슈를 한눈에 확인할 수 있는 뉴스 페이지입니다.
-      </p>
-    </section>
-
-    <section class="section-head">
-      <div>
-        <p class="section-label">Latest Articles</p>
-        <h2>실시간 기사 목록</h2>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>gorics.cloud News</title>
+    <meta name="description" content="gorics.cloud 뉴스 허브입니다." />
+    <link rel="stylesheet" href="/news/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="brand" href="/news/">gorics.cloud News</a>
+        <nav class="nav">
+          <a href="/">Home</a>
+          <a href="/news/">News</a>
+        </nav>
       </div>
-      <p id="updatedAt" class="updated-at">불러오는 중...</p>
-    </section>
+    </header>
 
-    <section id="newsGrid" class="category-layout" aria-live="polite"></section>
-  </main>
+    <main class="container">
+      <section class="hero">
+        <p class="eyebrow">NEWS HUB</p>
+        <h1>최신 뉴스</h1>
+        <p class="hero-text">
+          주요 기사와 최신 이슈를 한눈에 확인할 수 있는 뉴스 페이지입니다.
+        </p>
+      </section>
 
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <p>© 2026 gorics.cloud</p>
-    </div>
-  </footer>
+      <section class="section-head">
+        <div>
+          <p class="section-label">Latest Articles</p>
+          <h2>실시간 기사 목록</h2>
+        </div>
+        <p id="updatedAt" class="updated-at">
+          마지막 업데이트: 2026-04-04 10:30 KST
+        </p>
+      </section>
 
-  <script src="/news/app.js"></script>
-</body>
+      <section id="newsGrid" class="category-layout" aria-live="polite">
+        <section class="category-block">
+          <div class="category-head">
+            <p class="section-label">financial</p>
+            <h3>금융 섹터</h3>
+          </div>
+          <div class="news-grid sector-grid">
+            <article class="article-card">
+              <span class="meta-chip">financial</span>
+              <h3>
+                <a href="/news/financial/"
+                  >독일 3월 물가 2.8%…에너지 반등이 유로존 인플레 경계 확대</a
+                >
+              </h3>
+              <div class="card-meta">
+                <span>financial</span><span>2026-03-31</span>
+              </div>
+              <p class="article-summary">
+                독일의 EU 조화 소비자물가 상승률이 2월 2.0%에서 3월 2.8%로
+                뛰었다. 에너지 가격 상승이 직접 요인이며, 서비스 물가도 높아 ECB
+                부담이 커졌다.
+              </p>
+              <a class="read-more" href="/news/financial/">기사 보기 →</a>
+            </article>
+
+            <article class="article-card">
+              <span class="meta-chip">financial</span>
+              <h3>
+                <a href="/news/financial/"
+                  >BOJ, 유가·엔저발 인플레 압력 경고…일본 통화정책 부담 확대</a
+                >
+              </h3>
+              <div class="card-meta">
+                <span>financial</span><span>2026-03-31</span>
+              </div>
+              <p class="article-summary">
+                일본은행은 유가 상승과 엔화 약세가 기조적 인플레를 더 밀어 올릴
+                수 있다고 진단했다. 단기 공급 충격이 중기 인플레 기대를 자극할
+                수 있다는 해석이다.
+              </p>
+              <a class="read-more" href="/news/financial/">기사 보기 →</a>
+            </article>
+
+            <article class="article-card">
+              <span class="meta-chip">financial</span>
+              <h3>
+                <a href="/news/financial/"
+                  >미 10년물 금리 재상승…연준 인하 기대 2분기로 후퇴</a
+                >
+              </h3>
+              <div class="card-meta">
+                <span>financial</span><span>2026-03-31</span>
+              </div>
+              <p class="article-summary">
+                미국 국채 금리가 유가·임금 변수로 다시 올라 성장주 밸류에이션
+                부담이 커졌다. 시장은 연준의 첫 인하 시점을 더 늦춰 반영하고
+                있다.
+              </p>
+              <a class="read-more" href="/news/financial/">기사 보기 →</a>
+            </article>
+          </div>
+        </section>
+
+        <section class="category-block">
+          <div class="category-head">
+            <p class="section-label">stock</p>
+            <h3>증시 섹터</h3>
+          </div>
+          <div class="news-grid sector-grid">
+            <article class="article-card">
+              <span class="meta-chip">stock</span>
+              <h3>
+                <a
+                  href="/news/articles/stock-2026-04-04-samsung-earnings-preview.html"
+                  >삼성전자 1분기 잠정실적 발표 예고…시장 컨센서스 상회 여부
+                  촉각</a
+                >
+              </h3>
+              <div class="card-meta">
+                <span>stock</span><span>2026-04-04</span>
+              </div>
+              <p class="article-summary">
+                오는 7일 삼성전자의 1분기 잠정 실적 발표를 앞두고 증권가의
+                눈높이가 높아지고 있다. 반도체 부문 실적 개선세가 전체
+                영업이익을 견인할 것으로 예상되는 가운데, 시장 컨센서스 부합
+                여부가 향후 주가 방향성을 결정할 핵심 변수로 작용할 전망이다.
+              </p>
+              <a
+                class="read-more"
+                href="/news/articles/stock-2026-04-04-samsung-earnings-preview.html"
+                >기사 보기 →</a
+              >
+            </article>
+
+            <article class="article-card">
+              <span class="meta-chip">stock</span>
+              <h3>
+                <a href="/news/stock/"
+                  >월가 약세 지속…중동 변수 속 기술주 약하고 금융·에너지는 상대
+                  방어</a
+                >
+              </h3>
+              <div class="card-meta">
+                <span>stock</span><span>2026-03-31</span>
+              </div>
+              <p class="article-summary">
+                미국 증시는 반등 시도 뒤 다시 약세를 보였다. 기술주 중심 조정이
+                이어졌고, 금융주는 상대적으로 선방했다.
+              </p>
+              <a class="read-more" href="/news/stock/">기사 보기 →</a>
+            </article>
+
+            <article class="article-card">
+              <span class="meta-chip">stock</span>
+              <h3>
+                <a href="/news/stock/"
+                  >모건스탠리, 글로벌 주식 비중 하향…미국은 방어적 시장 평가</a
+                >
+              </h3>
+              <div class="card-meta">
+                <span>stock</span><span>2026-03-31</span>
+              </div>
+              <p class="article-summary">
+                중동 리스크와 유가 급등을 반영해 글로벌 주식 의견이 낮아졌다.
+                미국 자산은 상대적 방어처로 재평가됐다.
+              </p>
+              <a class="read-more" href="/news/stock/">기사 보기 →</a>
+            </article>
+
+            <article class="article-card">
+              <span class="meta-chip">stock</span>
+              <h3>
+                <a href="/news/stock/"
+                  >반도체 장비주, 실적 가이던스 엇갈려 변동성 확대</a
+                >
+              </h3>
+              <div class="card-meta">
+                <span>stock</span><span>2026-03-31</span>
+              </div>
+              <p class="article-summary">
+                메모리 수요 개선 기대와 설비투자 보수화가 동시에 나타나며 관련
+                종목 주가가 크게 흔들렸다. 종목별 옥석 가리기가 본격화되는
+                국면이다.
+              </p>
+              <a class="read-more" href="/news/stock/">기사 보기 →</a>
+            </article>
+          </div>
+        </section>
+
+        <section class="category-block">
+          <div class="category-head">
+            <p class="section-label">money</p>
+            <h3>생활경제 섹터</h3>
+          </div>
+          <div class="news-grid sector-grid">
+            <article class="article-card">
+              <span class="meta-chip">money</span>
+              <h3>
+                <a href="/news/money/"
+                  >한국, 유가 급등 시 전국적 차량 운행 제한 검토…연료세 카드도
+                  검토</a
+                >
+              </h3>
+              <div class="card-meta">
+                <span>money</span><span>2026-03-31</span>
+              </div>
+              <p class="article-summary">
+                국제유가가 더 치솟을 경우 정부가 공공부문을 넘어 일반 국민 대상
+                수요 관리까지 검토할 수 있다는 신호가 나왔다. 생활비와 유류비
+                부담에 직접 연결되는 뉴스다.
+              </p>
+              <a class="read-more" href="/news/money/">기사 보기 →</a>
+            </article>
+
+            <article class="article-card">
+              <span class="meta-chip">money</span>
+              <h3>
+                <a href="/news/money/"
+                  >영국, 자동차 금융 보상안 발표 수순…소비자 금융 규제 리스크
+                  부각</a
+                >
+              </h3>
+              <div class="card-meta">
+                <span>money</span><span>2026-03-31</span>
+              </div>
+              <p class="article-summary">
+                영국 금융당국이 자동차 금융 오판매 보상안을 내놓을 예정이어서
+                소비자 금융업계 부담이 커지고 있다. 대출 수수료 구조와 금리
+                산정의 불공정성이 핵심 쟁점이다.
+              </p>
+              <a class="read-more" href="/news/money/">기사 보기 →</a>
+            </article>
+
+            <article class="article-card">
+              <span class="meta-chip">money</span>
+              <h3>
+                <a href="/news/money/"
+                  >전월세 보증보험 문턱 완화 논의…청년층 주거비 완충 기대</a
+                >
+              </h3>
+              <div class="card-meta">
+                <span>money</span><span>2026-03-31</span>
+              </div>
+              <p class="article-summary">
+                보증 가입 요건이 완화되면 보증금 리스크가 낮아지는 반면, 손해율
+                관리와 보험료 조정 이슈가 함께 부각될 전망이다.
+              </p>
+              <a class="read-more" href="/news/money/">기사 보기 →</a>
+            </article>
+          </div>
+        </section>
+
+        <section class="category-block">
+          <div class="category-head">
+            <p class="section-label">social</p>
+            <h3>사회 섹터</h3>
+          </div>
+          <div class="news-grid sector-grid">
+            <article class="article-card">
+              <span class="meta-chip">social</span>
+              <h3>
+                <a href="/news/social/"
+                  >이재명 정부, 전작권 전환·선택적 징병제 추진 방향 제시</a
+                >
+              </h3>
+              <div class="card-meta">
+                <span>social</span><span>2026-03-31</span>
+              </div>
+              <p class="article-summary">
+                정부가 전시작전통제권 전환과 병역제도 개편을 함께 추진하겠다는
+                방향을 제시했다. 안보와 병역 자원 감소가 동시에 맞물리는 사회적
+                쟁점이다.
+              </p>
+              <a class="read-more" href="/news/social/">기사 보기 →</a>
+            </article>
+
+            <article class="article-card">
+              <span class="meta-chip">social</span>
+              <h3>
+                <a href="/news/social/"
+                  >주 4.5일제 시범 확산…중소기업 생산성·인력난 해법 논쟁</a
+                >
+              </h3>
+              <div class="card-meta">
+                <span>social</span><span>2026-03-31</span>
+              </div>
+              <p class="article-summary">
+                근로시간 유연화와 임금체계 개편을 함께 묶어야 실효성이 난다는
+                주장과 현장 비용이 먼저라는 반론이 맞서고 있다.
+              </p>
+              <a class="read-more" href="/news/social/">기사 보기 →</a>
+            </article>
+
+            <article class="article-card">
+              <span class="meta-chip">social</span>
+              <h3>
+                <a href="/news/social/"
+                  >고령 운전자 면허 갱신 강화안 공론화…이동권·안전 균형 쟁점</a
+                >
+              </h3>
+              <div class="card-meta">
+                <span>social</span><span>2026-03-31</span>
+              </div>
+              <p class="article-summary">
+                교통사고 예방을 위한 적성검사 강화가 논의되는 가운데, 지역
+                대중교통 격차가 큰 현실에서 이동권 보완책이 핵심 과제로
+                떠올랐다.
+              </p>
+              <a class="read-more" href="/news/social/">기사 보기 →</a>
+            </article>
+          </div>
+        </section>
+
+        <section class="category-block">
+          <div class="category-head">
+            <p class="section-label">education</p>
+            <h3>교육 섹터</h3>
+          </div>
+          <div class="news-grid sector-grid">
+            <article class="article-card">
+              <span class="meta-chip">education</span>
+              <h3>
+                <a href="/news/education/"
+                  >학령인구 감소의 역풍…학교 폐교와 지역 교육 지형 재편 가속</a
+                >
+              </h3>
+              <div class="card-meta">
+                <span>education</span><span>2026-03-31</span>
+              </div>
+              <p class="article-summary">
+                저출생 여파로 학교 문을 닫는 지역이 늘고 있다. 교육 접근성과
+                지역 공동체 구조, 지방 선거구 변화까지 연결되는 장기 구조
+                이슈다.
+              </p>
+              <a class="read-more" href="/news/education/">기사 보기 →</a>
+            </article>
+
+            <article class="article-card">
+              <span class="meta-chip">education</span>
+              <h3>
+                <a href="/news/education/"
+                  >AI 튜터 공교육 시범 확대…학습격차 완화 vs 데이터 윤리 논쟁</a
+                >
+              </h3>
+              <div class="card-meta">
+                <span>education</span><span>2026-03-31</span>
+              </div>
+              <p class="article-summary">
+                개인별 학습 진단 정확도는 높아졌지만, 학습 데이터 보관과
+                민감정보 처리 기준을 둘러싼 제도 정비가 병행돼야 한다는 지적이
+                커지고 있다.
+              </p>
+              <a class="read-more" href="/news/education/">기사 보기 →</a>
+            </article>
+
+            <article class="article-card">
+              <span class="meta-chip">education</span>
+              <h3>
+                <a href="/news/education/"
+                  >지방대 연합전공 확산…학과 경계 허물고 취업 연계 강화</a
+                >
+              </h3>
+              <div class="card-meta">
+                <span>education</span><span>2026-03-31</span>
+              </div>
+              <p class="article-summary">
+                학생 수 감소에 대응해 대학 간 공동 커리큘럼과 학점 교류가
+                확대되고 있다. 지역 산업과 연결된 실무형 전공 재편이 핵심
+                흐름이다.
+              </p>
+              <a class="read-more" href="/news/education/">기사 보기 →</a>
+            </article>
+          </div>
+        </section>
+
+        <section class="category-block">
+          <div class="category-head">
+            <p class="section-label">csat</p>
+            <h3>수능 섹터</h3>
+          </div>
+          <div class="news-grid sector-grid">
+            <article class="article-card">
+              <span class="meta-chip">csat</span>
+              <h3>
+                <a href="/news/csat/"
+                  >수능 영어에 AI 도입 예고…2028학년도 모의평가 활용 목표</a
+                >
+              </h3>
+              <div class="card-meta">
+                <span>csat</span><span>2026-03-31</span>
+              </div>
+              <p class="article-summary">
+                교육당국이 수능 영어 지문 생성·검토 체계에 AI를 도입해
+                2028학년도 모의평가부터 활용하는 방안을 추진하고 있다.
+              </p>
+              <a class="read-more" href="/news/csat/">기사 보기 →</a>
+            </article>
+
+            <article class="article-card">
+              <span class="meta-chip">csat</span>
+              <h3>
+                <a href="/news/csat/"
+                  >2027학년도 의대 정원 3,548명 확정…대입 구도 다시 흔든다</a
+                >
+              </h3>
+              <div class="card-meta">
+                <span>csat</span><span>2026-03-31</span>
+              </div>
+              <p class="article-summary">
+                2027학년도 의대 모집정원이 3,548명으로 확정됐다. 상위권 수험생
+                이동과 정시·수시 경쟁 구도에 연쇄 파급이 예상된다.
+              </p>
+              <a class="read-more" href="/news/csat/">기사 보기 →</a>
+            </article>
+
+            <article class="article-card">
+              <span class="meta-chip">csat</span>
+              <h3>
+                <a href="/news/csat/"
+                  >N수생 증가 전망…정시 상위권 컷 변동성 커진다</a
+                >
+              </h3>
+              <div class="card-meta">
+                <span>csat</span><span>2026-03-31</span>
+              </div>
+              <p class="article-summary">
+                의약학계열 선호와 재도전 수요가 맞물리며 상위권 표준점수 경쟁이
+                더욱 치열해질 것으로 보인다.
+              </p>
+              <a class="read-more" href="/news/csat/">기사 보기 →</a>
+            </article>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© 2026 gorics.cloud</p>
+      </div>
+    </footer>
+
+    <script src="/news/app.js"></script>
+  </body>
 </html>
