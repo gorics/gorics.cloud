@@ -1,7 +1,23 @@
 {
   "siteTitle": "gorics.cloud News",
-  "updatedAt": "2026-03-31 13:10 KST",
+  "updatedAt": "2026-04-15 18:30 KST",
   "articles": [
+    {
+      "title": "IMF, 중동 사태로 글로벌 경제 성장 둔화 경고…인플레이션 우려 재점화",
+      "slug": "financial-2026-04-15-imf-global-economy",
+      "path": "/news/financial/",
+      "category": "financial",
+      "publishedAt": "2026-04-15",
+      "summary": "국제통화기금(IMF)이 최신 세계 경제 전망을 통해 이란 분쟁 등 중동 사태가 글로벌 경제에 이미 타격을 주고 있다고 경고했다. 에너지 가격 급등으로 물가 상승 압력이 다시 커지며 각국 중앙은행의 셈법이 복잡해질 전망이다."
+    },
+    {
+      "title": "영국 기업들, 자국 경제 회복엔 '신중'…자체 성장엔 '자신감'",
+      "slug": "money-2026-04-15-uk-business-sentiment",
+      "path": "/news/money/",
+      "category": "money",
+      "publishedAt": "2026-04-15",
+      "summary": "최신 B2B 체감 지표 조사에서 영국 기업들은 전반적인 거시 경제 상황에 대해서는 여전히 신중한 태도를 보였으나, 자사의 비즈니스 성장에 대해서는 긍정적인 전망을 유지하는 것으로 나타났다. 비용 통제와 틈새 시장 공략이 주효했다는 평가다."
+    },
     {
       "title": "독일 3월 물가 2.8%…에너지 반등이 유로존 인플레 경계 확대",
       "slug": "financial-2026-03-31-germany-inflation",
