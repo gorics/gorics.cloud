@@ -1,7 +1,31 @@
 {
-  "siteTitle": "gorics.cloud News",
-  "updatedAt": "2026-03-31 13:10 KST",
+  "siteTitle": "gorcis.cloud News",
+  "updatedAt": "2026-03-31 14:30 KST",
   "articles": [
+    {
+      "title": "미 근원 PCE 물가 예상치 부합…연준 점진적 인하 경로 유지",
+      "slug": "financial-2026-03-31-us-pce-inflation",
+      "path": "/news/articles/financial-2026-03-31-us-pce-inflation.html",
+      "category": "financial",
+      "publishedAt": "2026-03-31",
+      "summary": "미국의 2월 근원 개인소비지출(PCE) 가격지수가 시장 예상치에 부합하며 인플레이션 둔화 추세를 재확인했다. 연준의 하반기 금리 인하 기대가 유지되며 거시 경제 전반에 안도감이 퍼지고 있다."
+    },
+    {
+      "title": "글로벌 AI 반도체 랠리 재개…마이크론 실적 호조가 기폭제",
+      "slug": "stock-2026-03-31-ai-semiconductor-rally",
+      "path": "/news/articles/stock-2026-03-31-ai-semiconductor-rally.html",
+      "category": "stock",
+      "publishedAt": "2026-03-31",
+      "summary": "마이크론 테크놀로지의 예상을 웃도는 실적 발표 이후 AI 반도체 밸류체인 전반으로 투자 심리가 개선됐다. 주요 기술주가 강세를 보이며 증시 상승을 견인했다."
+    },
+    {
+      "title": "금값 사상 최고치 경신 행진…지정학 리스크에 안전자산 쏠림 현상",
+      "slug": "money-2026-03-31-gold-price-record-high",
+      "path": "/news/articles/money-2026-03-31-gold-price-record-high.html",
+      "category": "money",
+      "publishedAt": "2026-03-31",
+      "summary": "국제 금값이 온스당 2,200달러를 돌파하며 사상 최고치를 경신했다. 지정학적 불확실성과 각국 중앙은행의 매수세가 겹치며 개인 투자자들의 안전자산 선호가 뚜렷해지고 있다."
+    },
     {
       "title": "독일 3월 물가 2.8%…에너지 반등이 유로존 인플레 경계 확대",
       "slug": "financial-2026-03-31-germany-inflation",
