@@ -1,7 +1,31 @@
 {
   "siteTitle": "gorics.cloud News",
-  "updatedAt": "2026-03-31 13:10 KST",
+  "updatedAt": "2026-04-05 09:30 KST",
   "articles": [
+    {
+      "title": "글로벌 공급망 재편 속 韓 수출 회복세 뚜렷…반도체·자동차 주도",
+      "slug": "financial-2026-04-05-export-recovery",
+      "path": "/news/financial/",
+      "category": "financial",
+      "publishedAt": "2026-04-05",
+      "summary": "글로벌 공급망 재편과 IT 수요 회복이 맞물리며 한국의 주요 수출품목인 반도체와 자동차 부문 실적이 크게 개선되고 있다. 거시경제 전반의 긍정적인 신호로 해석된다."
+    },
+    {
+      "title": "코스피, 외인 매수세에 주요 저항선 돌파 시도…주주환원 기대감 작용",
+      "slug": "stock-2026-04-05-kospi-foreign-buying",
+      "path": "/news/stock/",
+      "category": "stock",
+      "publishedAt": "2026-04-05",
+      "summary": "외국인 투자자들의 매수세가 유입되며 국내 증시가 주요 저항선 돌파를 시도하고 있다. 특히 기업들의 주주환원 확대 정책 기대감이 시장 전반의 투자 심리를 지지하는 모습이다."
+    },
+    {
+      "title": "청년 자산형성 지원사업 문턱 낮춘다…가입 요건 완화 본격 논의",
+      "slug": "money-2026-04-05-youth-asset-building",
+      "path": "/news/money/",
+      "category": "money",
+      "publishedAt": "2026-04-05",
+      "summary": "정부가 청년층의 자산형성을 돕기 위한 주요 금융지원 상품의 가입 요건을 대폭 완화하는 방안을 추진한다. 가구소득 기준을 개편해 실질적인 혜택 대상을 넓히겠다는 취지다."
+    },
     {
       "title": "독일 3월 물가 2.8%…에너지 반등이 유로존 인플레 경계 확대",
       "slug": "financial-2026-03-31-germany-inflation",
