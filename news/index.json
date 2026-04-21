@@ -1,7 +1,34 @@
 {
-  "siteTitle": "gorics.cloud News",
+  "siteTitle": "gorcis.cloud News",
   "updatedAt": "2026-03-31 13:10 KST",
   "articles": [
+    {
+      "id": "money-youth-housing-loan",
+      "title": "청년 디딤돌 대출 요건 완화...실수요자 주거비 부담 덜어줄까",
+      "summary": "정부가 무주택 청년층의 내 집 마련을 돕기 위해 정책대출 상품인 디딤돌 대출의 소득 요건을 완화하기로 했다. 이번 조치가 고금리와 고물가로 어려움을 겪는 실수요자들에게 실질적인 도움이 될지 주목된다.",
+      "category": "money",
+      "source": "자체 종합 브리핑",
+      "time": "2026-03-31 16:30 KST",
+      "link": "/news/articles/money-youth-housing-loan.html"
+    },
+    {
+      "id": "stock-kospi-semiconductor-rally",
+      "title": "코스피 2800선 안착 시도...외국인 매수세와 반도체 실적 기대감 작용",
+      "summary": "국내 증시가 주요 반도체 기업들의 실적 개선 기대감에 힘입어 상승 동력을 이어가고 있다. 외국인 투자자들의 매수세가 지속되며 코스피가 심리적 저항선인 2800선을 안정적으로 돌파할 수 있을지 시장의 관심이 쏠리고 있다.",
+      "category": "stock",
+      "source": "자체 종합 브리핑",
+      "time": "2026-03-31 16:30 KST",
+      "link": "/news/articles/stock-kospi-semiconductor-rally.html"
+    },
+    {
+      "id": "financial-bok-rate-outlook",
+      "title": "한국은행 금통위, 기준금리 동결 유력...가계부채와 물가 둔화 사이 '줄다리기'",
+      "summary": "한국은행이 다가오는 금융통화위원회에서 기준금리를 현 수준에서 동결할 것으로 시장은 전망하고 있다. 물가상승률이 둔화 흐름을 보이고 있으나, 여전히 높은 가계부채 수준과 환율 변동성이 금리 인하의 발목을 잡고 있다는 분석이다.",
+      "category": "financial",
+      "source": "자체 종합 브리핑",
+      "time": "2026-03-31 16:30 KST",
+      "link": "/news/articles/financial-bok-rate-outlook.html"
+    },
     {
       "title": "독일 3월 물가 2.8%…에너지 반등이 유로존 인플레 경계 확대",
       "slug": "financial-2026-03-31-germany-inflation",
@@ -146,5 +173,6 @@
       "publishedAt": "2026-03-31",
       "summary": "의약학계열 선호와 재도전 수요가 맞물리며 상위권 표준점수 경쟁이 더욱 치열해질 것으로 보인다."
     }
-  ]
+  ],
+  "last_updated": "2026-03-31 16:30 KST"
 }
