@@ -1,7 +1,31 @@
 {
   "siteTitle": "gorics.cloud News",
-  "updatedAt": "2026-03-31 13:10 KST",
+  "updatedAt": "2026-04-11 09:33 KST",
   "articles": [
+    {
+      "title": "미 3월 CPI 쇼크 여진 확산…연준, 상반기 인하 사실상 백지화 가능성",
+      "slug": "financial-2026-04-11-cpi-shock",
+      "path": "/news/articles/financial-2026-04-11-cpi-shock.html",
+      "category": "financial",
+      "publishedAt": "2026-04-11",
+      "summary": "미국 3월 소비자물가지수(CPI)가 시장 예상치를 웃돌면서 인플레이션 고착화 우려가 확산하고 있다. 연방준비제도 인사들의 매파적 발언이 잇따르며 상반기 금리 인하 기대감은 사실상 꺾이는 분위기다."
+    },
+    {
+      "title": "뉴욕증시, 인플레 충격에 혼조세 지속…기술주 반등 시도 속 금융주 선방",
+      "slug": "stock-2026-04-11-wallstreet-tech",
+      "path": "/news/articles/stock-2026-04-11-wallstreet-tech.html",
+      "category": "stock",
+      "publishedAt": "2026-04-11",
+      "summary": "월가 주요 지수는 금리 인하 지연 우려 속에 엇갈린 흐름을 보였다. 밸류에이션 부담이 커진 대형 기술주들이 조정을 받는 가운데, 고금리 장기화 수혜가 예상되는 금융주들이 상대적인 강세를 나타내며 지수 하단을 지지했다."
+    },
+    {
+      "title": "고금리 장기화에 다시 뜨는 '파킹통장'…시중 자금, 대기성 수신으로 회귀",
+      "slug": "money-2026-04-11-parking-account",
+      "path": "/news/articles/money-2026-04-11-parking-account.html",
+      "category": "money",
+      "publishedAt": "2026-04-11",
+      "summary": "기준금리 인하 시점이 뒤로 밀리며 시중 자금이 다시 단기 부동화되는 현상이 나타나고 있다. 주요 은행과 저축은행들은 자금 이탈을 막기 위해 혜택을 늘린 파킹통장과 단기 예적금 특판을 속속 내놓고 있다."
+    },
     {
       "title": "독일 3월 물가 2.8%…에너지 반등이 유로존 인플레 경계 확대",
       "slug": "financial-2026-03-31-germany-inflation",
