@@ -1,7 +1,31 @@
 {
-  "siteTitle": "gorics.cloud News",
-  "updatedAt": "2026-03-31 13:10 KST",
+  "siteTitle": "gorcis.cloud News",
+  "updatedAt": "2026-04-23 10:41 KST",
   "articles": [
+    {
+      "title": "한은 총재, '물가 경로 여전히 불확실…섣부른 금리 인하 경계'",
+      "slug": "financial-2026-04-23-bok-rate",
+      "path": "/news/articles/financial-2026-04-23-bok-rate.html",
+      "category": "financial",
+      "publishedAt": "2026-04-23",
+      "summary": "한국은행 총재가 향후 소비자물가 흐름의 불확실성을 강조하며 조기 기준금리 인하에 대한 시장의 기대를 경계했습니다. 유가 상승과 누적된 비용 압력이 여전하다는 진단입니다."
+    },
+    {
+      "title": "미국 증시, 금리 우려에 대형 기술주 중심 변동성 장세",
+      "slug": "stock-2026-04-23-us-tech-volatility",
+      "path": "/news/articles/stock-2026-04-23-us-tech-volatility.html",
+      "category": "stock",
+      "publishedAt": "2026-04-23",
+      "summary": "미국 증시가 고금리 장기화 우려를 반영하며 주요 기술주를 중심으로 변동성이 커지고 있습니다. 기업 실적 발표와 겹치며 종목별 차별화 양상이 뚜렷합니다."
+    },
+    {
+      "title": "청년 주택청약 경쟁률 상승…서울 등 주요 지역 쏠림 심화",
+      "slug": "money-2026-04-23-housing-subscription",
+      "path": "/news/articles/money-2026-04-23-housing-subscription.html",
+      "category": "money",
+      "publishedAt": "2026-04-23",
+      "summary": "특별공급 물량을 노리는 청년층 수요가 수도권 주요 분양 단지에 몰리며 청약 경쟁률이 높아지고 있습니다. 분양가 상승 속에서도 입지에 따른 옥석 가리기가 치열합니다."
+    },
     {
       "title": "독일 3월 물가 2.8%…에너지 반등이 유로존 인플레 경계 확대",
       "slug": "financial-2026-03-31-germany-inflation",
