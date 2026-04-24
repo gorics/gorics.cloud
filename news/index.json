@@ -1,7 +1,31 @@
 {
-  "siteTitle": "gorics.cloud News",
-  "updatedAt": "2026-03-31 13:10 KST",
+  "siteTitle": "gorcis.cloud News",
+  "updatedAt": "2026-04-24 18:30 KST",
   "articles": [
+    {
+      "title": "미 연준, 고용지표 호조에 기준금리 인하 신중론 재확인",
+      "slug": "financial-2026-04-24-fed-rates",
+      "path": "/news/articles/financial-2026-04-24-fed-rates.html",
+      "category": "financial",
+      "publishedAt": "2026-04-24",
+      "summary": "최근 발표된 미국 고용지표가 시장 예상치를 상회하면서, 연준 내에서 기준금리 인하에 신중해야 한다는 목소리가 커지고 있다. 물가 상승 압력이 여전한 가운데 견조한 고용이 긴축 장기화 전망에 힘을 싣는 모양새다."
+    },
+    {
+      "title": "글로벌 AI 반도체 수요 급증…관련 ETF 역대급 자금 유입",
+      "slug": "stock-2026-04-24-ai-semiconductor-etf",
+      "path": "/news/articles/stock-2026-04-24-ai-semiconductor-etf.html",
+      "category": "stock",
+      "publishedAt": "2026-04-24",
+      "summary": "인공지능(AI) 산업의 구조적 성장에 대한 기대감으로 글로벌 반도체 장비 및 설계 기업을 담은 ETF에 대규모 자금이 몰리고 있다. 특정 빅테크에 편중된 시장에서 다변화를 꾀하는 투자 수요가 반영된 것으로 분석된다."
+    },
+    {
+      "title": "시중은행 주택담보대출 금리 하단 4%대 재진입…가계대출 꿈틀",
+      "slug": "money-2026-04-24-mortgage-rates",
+      "path": "/news/articles/money-2026-04-24-mortgage-rates.html",
+      "category": "money",
+      "publishedAt": "2026-04-24",
+      "summary": "주요 시중은행의 주택담보대출 고정금리 하단이 다시 4%대로 올라섰다. 은행권 자금조달 비용 증가와 금융당국의 가계부채 관리 기조가 맞물리면서, 대출 수요자들의 이자 부담이 커지고 있다."
+    },
     {
       "title": "독일 3월 물가 2.8%…에너지 반등이 유로존 인플레 경계 확대",
       "slug": "financial-2026-03-31-germany-inflation",
