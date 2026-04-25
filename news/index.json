@@ -1,7 +1,31 @@
 {
-  "siteTitle": "gorics.cloud News",
-  "updatedAt": "2026-03-31 13:10 KST",
+  "siteTitle": "gorcis.cloud News",
+  "updatedAt": "2026-04-25 00:30 KST",
   "articles": [
+    {
+      "title": "미국 금리 인하 기대 후퇴…글로벌 증시 변동성 확대",
+      "slug": "financial-2026-04-25-us-rates-delay",
+      "path": "/news/financial/",
+      "category": "financial",
+      "publishedAt": "2026-04-25",
+      "summary": "미국 연준의 금리 인하 기대가 하반기로 후퇴하면서 글로벌 금융 시장의 변동성이 커지고 있다. 물가 지표가 예상보다 높게 나오면서 고금리 장기화 우려가 다시 부각되는 모습이다."
+    },
+    {
+      "title": "AI 반도체 수요 급증…관련주 실적 기대감에 강세",
+      "slug": "stock-2026-04-25-ai-semiconductor-boom",
+      "path": "/news/stock/",
+      "category": "stock",
+      "publishedAt": "2026-04-25",
+      "summary": "인공지능(AI) 산업 팽창에 따라 반도체 수요가 폭발적으로 증가하면서 국내외 관련 기업들의 실적 개선 기대감이 높아지고 있다. 증시에서도 반도체 장비 및 부품주들이 강세를 주도하고 있다."
+    },
+    {
+      "title": "가계대출 금리 상승 압력…대출자 이자 부담 가중 우려",
+      "slug": "money-2026-04-25-household-loan-rates-up",
+      "path": "/news/money/",
+      "category": "money",
+      "publishedAt": "2026-04-25",
+      "summary": "시장 금리 상승세가 이어지면서 주택담보대출 등 가계대출 금리도 오름세를 보이고 있다. 고금리 기조가 길어질 경우 취약 차주를 중심으로 이자 상환 부담이 크게 늘어날 수 있다는 우려가 나온다."
+    },
     {
       "title": "독일 3월 물가 2.8%…에너지 반등이 유로존 인플레 경계 확대",
       "slug": "financial-2026-03-31-germany-inflation",
