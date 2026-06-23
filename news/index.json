@@ -1,7 +1,31 @@
 {
   "siteTitle": "gorics.cloud News",
-  "updatedAt": "2026-03-31 13:10 KST",
+  "updatedAt": "2026-04-09 09:30 KST",
   "articles": [
+    {
+      "title": "연준 인사들, 중동 전쟁 여파 속에서도 연내 금리 인하 기대 유지",
+      "slug": "financial-2026-04-09-fed-rate-cut-expectation",
+      "path": "/news/articles/financial-2026-04-09-fed-rate-cut-expectation.html",
+      "category": "financial",
+      "publishedAt": "2026-04-09",
+      "summary": "연방준비제도(Fed) 회의록에 따르면, 주요 인사들은 인플레이션과 지정학적 리스크를 주시하면서도 올해 안으로 기준금리를 내릴 수 있을 것이란 전망을 유지했다. 시장은 향후 정책의 유연성에 주목하고 있다."
+    },
+    {
+      "title": "국제 유가 반등…호르무즈 해협 봉쇄 장기화에 원유 수급 불안 고조",
+      "slug": "financial-2026-04-09-oil-price-hormuz-strait",
+      "path": "/news/articles/financial-2026-04-09-oil-price-hormuz-strait.html",
+      "category": "financial",
+      "publishedAt": "2026-04-09",
+      "summary": "최근 급락세를 보였던 국제 유가가 중동의 호르무즈 해협 마비 사태와 확전 우려가 겹치며 다시 급반등했다. 공급망 충격이 장기화될 경우 글로벌 인플레이션 압력이 다시 높아질 수 있다는 분석이 나온다."
+    },
+    {
+      "title": "딥시크 쇼크에 미 AI 기술주 급락…월가 \"과도한 매도세\" 평가도",
+      "slug": "stock-2026-04-09-deepseek-ai-stocks-selloff",
+      "path": "/news/articles/stock-2026-04-09-deepseek-ai-stocks-selloff.html",
+      "category": "stock",
+      "publishedAt": "2026-04-09",
+      "summary": "중국의 AI 모델 딥시크(DeepSeek) 출시 여파로 엔비디아 등 주요 AI 반도체 및 빅테크 종목이 큰 폭으로 하락했다. 다만 일부 월가 전문가들은 단기적 패닉 셀링 성격이 강하며 펀더멘털 훼손은 제한적일 수 있다고 진단했다."
+    },
     {
       "title": "독일 3월 물가 2.8%…에너지 반등이 유로존 인플레 경계 확대",
       "slug": "financial-2026-03-31-germany-inflation",
