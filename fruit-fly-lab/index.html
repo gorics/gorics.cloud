@@ -98,10 +98,22 @@
 <script type="module">
 const COMMIT = '26672e06427c12c61536ce1bd93dae7442944681';
 const BASE = `https://cdn.jsdelivr.net/gh/vaibhavkedarisetti/fruit-fly-lab@${COMMIT}/web`;
+const RAW_DATA = `https://raw.githubusercontent.com/vaibhavkedarisetti/fruit-fly-lab/${COMMIT}/web/data/`;
 const NativeWorker = window.Worker;
-const workerBootstrap = URL.createObjectURL(new Blob([
-  `import ${JSON.stringify(`https://cdn.jsdelivr.net/gh/vaibhavkedarisetti/fruit-fly-lab@${COMMIT}/web/js/worker.js`)};`
-], { type: 'text/javascript' }));
+const workerCode = `
+const __nativeFetch = globalThis.fetch.bind(globalThis);
+const __rawData = ${JSON.stringify(`https://raw.githubusercontent.com/vaibhavkedarisetti/fruit-fly-lab/${COMMIT}/web/data/`)};
+globalThis.fetch = (input, init) => {
+  const u = typeof input === 'string' ? input : (input instanceof URL ? input.href : (input && input.url) || '');
+  if (u.includes('/web/data/')) {
+    const name = u.substring(u.lastIndexOf('/') + 1);
+    return __nativeFetch(__rawData + name, init);
+  }
+  return __nativeFetch(input, init);
+};
+await import(${JSON.stringify(`https://cdn.jsdelivr.net/gh/vaibhavkedarisetti/fruit-fly-lab@${COMMIT}/web/js/worker.js`)});
+`;
+const workerBootstrap = URL.createObjectURL(new Blob([workerCode], { type: 'text/javascript' }));
 function PinnedWorker(url, options) {
   const u = String(url);
   if (u === 'js/worker.js' || u.endsWith('/js/worker.js')) {
