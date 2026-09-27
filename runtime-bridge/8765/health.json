@@ -1,0 +1,8 @@
+{
+  "status": "SERVER_OK",
+  "healthy": true,
+  "logical_port": 8765,
+  "public_front_door": "https://gorics.cloud/runtime-bridge/8765/",
+  "transport": "github-pages-external-front-door",
+  "direct_tcp_tunnel_to_chatgpt_sandbox": false
+}
