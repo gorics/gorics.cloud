@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Runtime Bridge</title>
+<style>
+:root{color-scheme:dark}*{box-sizing:border-box}body{margin:0;background:#090d12;color:#eaf2fb;font-family:system-ui,-apple-system,sans-serif}.wrap{max-width:900px;margin:auto;padding:22px}.card{background:#121923;border:1px solid #263345;border-radius:18px;padding:18px;margin:14px 0}.ok{color:#5ff59b}.muted{color:#91a3b8}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px}.stat{background:#0d131b;border:1px solid #223044;border-radius:14px;padding:14px}textarea,input,button{font:inherit;border-radius:10px;padding:11px;border:1px solid #35465b}textarea,input{background:#0b1118;color:#fff}textarea{width:100%;min-height:110px}button{background:#eaf2fb;color:#081018;font-weight:700;cursor:pointer}.log{white-space:pre-wrap;word-break:break-word;background:#0b1118;padding:12px;border-radius:12px;min-height:120px}code{background:#0b1118;padding:2px 6px;border-radius:6px}</style></head>
+<body><div class="wrap"><h1>Runtime Bridge <span class="ok">Online</span></h1><p class="muted">Public front door created by ChatGPT · HTTPS · gorics.cloud</p>
+<div class="grid"><div class="stat"><b>Status</b><div class="ok" id="status">ONLINE</div></div><div class="stat"><b>Session uptime</b><div id="uptime">0s</div></div><div class="stat"><b>Local requests</b><div id="count">0</div></div></div>
+<div class="card"><h3>Command console</h3><p class="muted">명령을 작성하고 복사하면 Chat-RPC 형식으로 바로 사용할 수 있다.</p><input id="method" value="LOCAL GET /status" style="width:100%"><div style="height:10px"></div><textarea id="body" placeholder='LOCAL POST /message {"text":"hello"}'></textarea><div style="height:10px"></div><button onclick="emit()">Queue command locally</button></div>
+<div class="card"><h3>Local queue</h3><div id="log" class="log">No commands yet.</div></div>
+<div class="card"><h3>Bridge architecture</h3><div class="muted">Public HTTPS → <code>gorics.cloud/runtime-bridge/</code> → command queue / Chat-RPC → ChatGPT runtime service</div></div>
+</div><script>
+const born=Date.now();let n=Number(localStorage.rbCount||0);let q=JSON.parse(localStorage.rbQueue||'[]');
+function render(){uptime.textContent=Math.floor((Date.now()-born)/1000)+'s';count.textContent=n;log.textContent=q.length?q.map((x,i)=>`${i+1}. ${x}`).join('\n'):'No commands yet.'}
+function emit(){const a=method.value.trim(),b=body.value.trim();const x=b||a;if(!x)return;q.push(x);n++;localStorage.rbCount=n;localStorage.rbQueue=JSON.stringify(q);navigator.clipboard?.writeText(x);render()}
+setInterval(render,1000);render();</script></body></html>
