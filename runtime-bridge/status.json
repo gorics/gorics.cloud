@@ -1,11 +1,11 @@
 {
   "ok": true,
   "service": "chat-rpc-local",
-  "uptime_s": 1761.33,
-  "requests": 5,
+  "uptime_s": 1814.7,
+  "requests": 6,
   "pid": 1141,
   "messages": 1,
   "keys": [],
-  "snapshot_at": "2026-09-27T14:37:16.854428+00:00",
+  "snapshot_at": "2026-09-27T14:38:10.223825+00:00",
   "internal_url": "http://127.0.0.1:8766"
 }
