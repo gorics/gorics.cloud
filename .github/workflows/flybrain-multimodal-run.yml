@@ -1,0 +1,51 @@
+name: FlyBrain Open Models Integration
+
+on:
+  push:
+    branches: [flybrain-multimodal-run]
+    paths:
+      - 'flybrain_multimodal/**'
+      - '.github/workflows/flybrain-multimodal-run.yml'
+  workflow_dispatch:
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Provenance
+        run: |
+          mkdir -p flybrain_multimodal/results
+          {
+            echo "snedea/flybrain $(git ls-remote https://github.com/snedea/flybrain.git HEAD | cut -f1)"
+            echo "huggingface/diffusers $(git ls-remote https://github.com/huggingface/diffusers.git HEAD | cut -f1)"
+            echo "huggingface/smollm $(git ls-remote https://github.com/huggingface/smollm.git HEAD | cut -f1)"
+            echo "CompVis/stable-diffusion $(git ls-remote https://github.com/CompVis/stable-diffusion.git HEAD | cut -f1)"
+          } | tee flybrain_multimodal/results/source_commits.txt
+      - name: Install
+        run: |
+          python -m pip install -U pip
+          python -m pip install torch --index-url https://download.pytorch.org/whl/cpu
+          python -m pip install 'transformers>=4.46,<5' 'diffusers>=0.34,<1' accelerate safetensors sentencepiece protobuf requests pillow huggingface_hub hf_xet
+      - name: Run experiment
+        env:
+          HF_HUB_DISABLE_TELEMETRY: '1'
+          TOKENIZERS_PARALLELISM: 'false'
+        run: python -u flybrain_multimodal/run.py | tee flybrain_multimodal/results/run.log
+      - name: List results
+        if: always()
+        run: find flybrain_multimodal/results -maxdepth 1 -type f -printf '%f %s bytes\n' | sort || true
+      - name: Upload artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: flybrain-open-model-results
+          path: flybrain_multimodal/results/
+          if-no-files-found: warn
+          retention-days: 30
